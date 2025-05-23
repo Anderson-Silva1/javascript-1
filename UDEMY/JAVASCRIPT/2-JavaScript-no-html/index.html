@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript no HTML</title>
+</head>
+<body>
+
+    <h1>JavaScript no HTML</h1>
+    <p>Temos duas formas de colovar JS no HTML, forma interna e externa</p>
+    <br>
+    <p><strong>INTERNA:</strong></p>
+    <p>Usamos uma tag com fechamento dentro do HTML chamada <code>script</code> e dentro dela o nosso código JS</p>
+    <pre>
+        &lt; script &gt;
+            "código JS"
+        &lt; /script &gt;
+    </pre>
+    <br>
+    <p><strong>EXTERNA:</strong></p>
+    <p>Usamos uma tag com fechamento dentro do HTML chamada <code>script</code> com o atributo "SRC" levando até o arquivo JS onde contém nosso código JS</p>
+    <pre>
+        &lt; script src="./script.js" &gt; &lt; /script &gt;
+    </pre>
+    
+    <br>
+    <hr>
+    <br>
+
+    <h2>Qual usar? Interno ou Externo?</h2>
+    <p>Depende do contexto, mas o aconselhável é sempre criar um arquivo externo para desenvolvimento, pois assim temos um maior controle do nosso projeto, sem contar que podemos ter mais de um tipo de arquivo ".js" dentro do nosso HTML</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Devemos ter cuidado com a precedência dos nossos Arquivos JS</h2>
+    <p>Precedência é basicamente qual a ordem de execução que eu quero na minha ágina HTLM...</p>
+    <p>Os Browsers conseguem ler os códigos enviados a ele de cima para baixo, ou seja, o que estiver nas primeiras linhas será execultado primeiro e vice-versa</p>
+    <p>Se colocarmos o JS para carregar antes dos nossos elementos própriamente dito, e se caso o nosso JS for selecionar algum elemento, ele nãi vai existir, ainda, pois ainda não foi execultado pelo Navegador...</p>
+
+</body>
+</html>

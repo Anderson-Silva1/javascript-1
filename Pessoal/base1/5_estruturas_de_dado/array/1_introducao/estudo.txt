@@ -1,0 +1,7 @@
+O QUE É ARRAY??
+    - Array é uma estruturade dado, ou seja, dentro dele odem conter dados
+    - Serve para armazenar informações
+    - Possui indexação para localização de dados
+    - Dentro do Array podemos armazenar quaisquer outros tipo de dado, seja eles: tring, Number, Boolean, Null, Undefined, Falsy... E até outro Array...
+    - Nosso Array é basicamente uma variável que recebe uma lista que é especificada pelos colchetes [ " Valor " ]... Para adicionarmos mais dados a nossa listausamos a vírgula (,): let listaTeste = ["lista", true, 10, undefined, null, 0, [true, 'teste', 2102.40]]
+    - Podemos usar tambem, para criar um Array, o contrutor Array: new Array(), basicamente vai ser a mesma coisa, vai criar um Array da mesma forma dos colchetes, porém tem um peculiaridade... Ao usarmos esse contrutor Array devemos ter cuidado como que ele compõe, se for uma lista com Strings, pode ficar tranquilo que vai dar certo... Se for uma lista com Valores variádos, vai dar certo... Porém se for um array que contém apenas um número, precisamos ter cuidado, pois ele não vair criar um índice de uma lista com esse número, ele vai criar o tanto de índices que esse numero possui, e cada um desses índices terão o valor "undefined"

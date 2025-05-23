@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casting de tipos: toString(); ParseInt(), ParseFloat()</title>
+</head>
+<body>
+    <h1>Casting de tipos</h1>
+    <p>Casting seria uma conversão de tipos de dados... Podemos usar 3 tipos de casting's: : toString(); ParseInt(), ParseFloat()</p>
+    <ul>
+        <li>toString() &Gt; Converte para Texto</li>
+        <li>ParseInt() &Gt; Converte para Número Inteiro</li>
+        <li>ParseFloat() &Gt; Converte para Número Decimal ou Fracionado</li>
+    </ul>
+
+    <p>Olhar para o código fonte para mais informações</p>
+    <br><br><br>
+
+    <script>
+        let number1 = prompt("Qual o primeiro número a ser usado?") // Esse função do JS "prompt" retorna obrigatoriamente uma STRING
+        let number2 = "20"
+
+        document.write(`Números 1 não convertido: ${number1} ${typeof(number1)} ${"<br>"}`)
+
+        document.write(`Números 2 não convertido: ${number2} ${typeof(number2)} ${"<br>"}`)
+
+        document.write(`Soma Números não convertido: ${number1 + number2}${"<br>"}`) // Não conseguimos somar 2 STRINGS
+        
+        document.write("<br>")
+
+        document.write(`Números 1 convertidos: ${parseInt(number1)}${"<br>"}`)
+        document.write(`Números 2 convertidos: ${parseInt(number2)}${"<br>"}`)
+        document.write(`Soma Números convertidos: ${parseInt(number1) + parseInt(number2)} ${"<br>"}`)
+
+        document.write("<br><br><br>")
+
+        let numberString1 = 60
+        let numberString2 = 20
+
+        document.write(numberString1 + numberString2 + "<br>")// Nesse caso estamos somando dois numeros
+        document.write(numberString1.toString() + numberString2.toString()) // Nesse caso estamos concatenbando duas Strings
+
+    </script>
+</body>
+</html>

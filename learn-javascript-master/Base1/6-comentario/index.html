@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentário</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comentário</h1>
+    <p>Comentários são trechos de códigos que serão ignrados pelo Browser (navegador)...</p>
+    <p>Em JavaScript eles são representados de duas formas: <i>De uma (1) linha ou de 2 (duas) ou mais linhas</i></p>
+    <ul>
+        <li>1 Linha => É reprensentado pelo "//"</li>
+        <li>2 ou mais linhas é representado pelo "/**/"</li>
+    </ul>
+    <p><strong>Exemplo</strong></p>
+    <pre>
+        function sum(a,b){ // Esse é um comentário de uma linha e não vai aparecer no navegador... Se eu pular de linha como ENTER
+            <span>vai aparecer essa parte do texto, e irá dar um erro</span>
+            const soma = a + b
+            return soma
+            
+            /*
+                Agora usando esse simbolo posso usar tranquilamente...
+                Quantyas linhas eu quiser
+                
+                Tanto aqui
+
+
+
+
+
+
+                Quanto aqui
+            */
+
+            <span>Porém seu eu ficar fora do escopo desse comentário, o browser não tratará dessa informação como um comentário, e dará um erro</span>
+        }
+    </pre>
+</body>
+</html>

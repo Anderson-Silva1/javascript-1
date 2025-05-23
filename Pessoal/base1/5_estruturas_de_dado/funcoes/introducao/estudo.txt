@@ -1,0 +1,8 @@
+O QUE SÃO FUNÇÕES?
+    - Funções são blocos de código reutilizáveis que realizam uma tarefa específica. Elas ajudam a organizar e modularizar o código, tornando-o mais eficiente e fácil de manter.
+    - Funções podem ter parâmetros, que são nomes que usamos para usar dentro da função
+    - Funções podem ter argumentos, que são os nomes dados que serão atribuídos aos parâmetros da função
+    - Funções pode ter "return"...
+    - Funções podem ser "void", que não possuem "return"
+    - Funções "void" não retornam dados, apenas podem mostrar informações, ou seja, não conseguimos usar ela em variáveis
+    - Funções precisam serem chamadas

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modules Node</title>
+</head>
+<body>
+    <h1>Módules JavaScript</h1>
+    <p>No JavaScript podemos exportar e importar dados usando o Modules</p>
+    <br>
+    <p>Primeiro colocamos um type na chamado do JS para o HTML, <code>type: module</code></p>
+    <img src="./assets/type-module.png" alt="type-module" width="800">
+    <br>
+    <p>Segundo exportamos nosso dado de um outro arquivo .js, e para exportar usamos o comando: <code>export default</code></p>
+    <img src="./assets/export.png" alt="export" width="400">
+    <p>Nesse caso acima criamos uma const recebendo uma lista, e exportamos essa lista</p>
+    <br>
+    <p>Depois de exportar, nós importamos dentro do arquivo que desejamos que ela seja importado com o comando: <code>import "referência do dado" from "caminho do arquivo do dado"</code></p>
+    <img src="./assets/import.png" alt="import" width="400">
+    <br><br><br>
+
+    <p><strong>Podemos exportar e importar funções também</strong></p>
+    <img src="./assets/export-sum.png" alt="export-func" width="400">
+    <p>Depois importamos dentro do arquivo que será importado:</p>
+    <img src="./assets/import-sum.png" alt="import-sum" width="600">
+
+    <br><br><br>
+
+    <p>Caso tenha mais de um dado a ser exportado, ficará dessa forma:</p>
+    <p>export:</p>
+    <img src="./assets/export-mais-de-um.png" width="400" alt="Mais de um export">
+
+    <p>Import:</p>
+    <img src="./assets/import-mais-de-um.png" width="400" alt="import-mais-de-um">
+    <script src="./pasta-teste/index.js" type="module"></script>
+</body>
+</html>

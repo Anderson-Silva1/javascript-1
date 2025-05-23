@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Operadores</h1>
+    <h2>Operadores decomparação</h2>
+    <ul>
+        <li><strong>== (IGUAL)</strong> - Verifica se os valores são iguais</li>
+        <li><strong>=== (IDÊNTICOS)</strong> - Verifica se os valores são idênticos, tanto em caractere quanto em tipo</li>
+        <li><strong>!= (DIFERÊNTE)</strong> - Verifica se os valores são Diferentes</li>
+        <li><strong>!== (NÃO IDÊNTICO)</strong> - Verifica se os valores são Não Idênticos</li>
+        <li><strong>> (MAIOR QUE)</strong> - Verifica se o primeiro valort é maior que o segundo</li>
+        <li><strong>>= (MAIOR OU IGUAL A)</strong> - Verifica se o primeiro valor é maior ou Igual ao segundo</li>
+        <li><strong>&lt; (MENOS QUE)</strong> - Verifica se o primeiro valor é menor que o segundo</li>
+        <li><strong>&lt;= (MENOR OU IGUAL A)</strong> - Verifica se o primeiro valor é menor ou Igual ao segundo</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>Operadores Lógicos</h2>
+    <ul>
+        <li><strong>&& (E)</strong> - Verifica mais de uma condição, se uma delas for false, o resultado sará false, se todas as consções forem True, retornará True</li>
+        <li><strong>|| (Ou)</strong> - Verifica mais de uma condição, se uma for True e a outra False o resultado será True</li>
+        <li><strong>! (Negação)</strong> - Verifica qual o resultado da condição e inverte, caso dê True o resultado será false, caso dê False o resultado será True</li>
+    </ul>
+    <p>Exercício de Operadores lógicos</p>
+    <script src="./op_logico.js"></script>
+
+    <br>
+    <hr>
+    <br>
+    <h2>Operadores Ternários</h2>
+    <p>Seria uma forma simplificada de usar o IF e o ELSE</p>
+    <p>Nele usamos Os caracteres: "?" e ":"</p>
+    <ul>
+        <li><strong>Sintaxe</strong>
+            <p><code>&lt; condição &gt; ? &lt; vedadeiro &gt; : &lt; falso &gt; </code></p>
+            <p>Basicamente esse código está dizendo o seguinte: <strong>SE "consição" for "verdade", vai execultar o bloco de código após o "?", SE "condição" for "falsa", vai execultar o bloco de código depois do ":"</strong></p>
+            <br>
+            <p>EX: <code>5 > 2 ? console.log("Sim") : console.log("Não")</code></p>
+        </li>
+        <li>Os Operadores Ternários devem ser ultilizados para coisas simples, pois dentro dele não conseguimos fazer coisas mais complexas</li>
+    </ul>
+</body>
+</html>

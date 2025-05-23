@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Variáveis</h1>
+    <p>Variáveis são espaços reservados na memória do computador para armazenar um determinado tipo de dado</p>
+    <h2>Tipos de variáveis</h2>
+    <p>Temos pelo menos 3 tipos de variáveis no JS:</p>
+    <ul>
+        <li>VAR
+            <p>Que é um tipo de variável <strong>Global</strong> e <strong>volátil</strong></p>
+        </li>
+        <li>LET
+            <p>Que pe um tipo de variável <strong>Local</strong> e <strong>volátil</strong></p>
+        </li>
+        <li>CONST
+            <p>Que pe um tipo de variável <strong>Local</strong> e não <strong>NÃO volátil</strong></p>
+        </li>
+    </ul>
+    <br><br>
+    <ul>
+        <li>GLOBAL = É um tipo de variável que pode ser acessado de qualquer lugar da nossa aplicação</li>
+        <li>LOCAL = É um tipo de variável que só pode ser acessada dentro de um escopo específico</li>
+        <li>VOLÁTIL = Significa que ela pode ser alterada ao longo da nossa aplicação</li>
+        <li>NÃO VOLATIL = Significa que ela não pode ser alterada ao longo da nossa aplicação</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>Valores de variáveis</h2>
+    <p>Podemos ter alguns tipos de valores para variáveis, e aqui estamos falando já de tipos de dados, vamos mostrar os 3 principais tipos de dados</p>
+    <ul>
+        <li><strong>STRING</strong>
+            <p>São dados do tipo "textos"</p>
+            <p>Estes são especificados pelas áspas simples ou áspas duplas... Veremos mais afundo sobre eles mais para frente...</p>
+        </li>
+        <!-- <br> não precisou dessa quebra de linha -->
+        <li><strong>NUMBER</strong>
+            <p>São dados do tipo "numero"</p>
+            <p>Podem ser especificados como "INT"  e "FLOAT"</p>
+            <ul>
+                <li><strong>INT</strong> =  Números inteiros: 1, 2, 3, 4, 5, etc...</li>
+                <li><strong>FLOAT</strong> = Números decimais ou fracionados: 1.0, 1.1, 1.2, 1.3, 1.4, etc...</li>
+            </ul>
+        </li>
+        <br>
+        <li><strong>BOOLEAN</strong>
+            <p>São dados que darão apenas 2 resultados possíveis:
+                <ul>
+                    <li><strong>TRUE</strong> = Verdadeiro</li>
+                    <li><strong>FALSE</strong> = Falso</li>
+                </ul>
+            </p>
+        </li>
+
+        <li><strong>NULL</strong>
+            <p>é um valor especial que representa a ausência intencional de um valor para uma variável ou objeto. Ele é usado para indicar que uma variável foi declarada, mas ainda não foi atribuída a nenhum objeto ou valor.</p>
+            <p></p>
+        </li>
+
+        <li><strong>UNDEFINED</strong>
+            <p>é um valor primitivo que indica que uma variável foi declarada, mas ainda não foi inicializada com um valor</p>
+            <p>Também pode ser retornado em outros contextos, como quando você tenta acessar uma propriedade de um objeto que não existe ou quando uma função não retorna explicitamente um valor.</p>
+        </li>
+
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h2>Regras de declaração de variável</h2>
+    <p>1 - <strong>NÃO</strong> pode ser inicuada por números, apenas letras ou "_"</p>
+    <p>2 - <strong>NÃO</strong> pode conter caractéres especiais como: ç, ~, ^, etc...</p>
+    <p>3 - <strong>NÃO</strong> pode ser igual a palavras reservadas da linguagems
+        <ul>
+            <li><strong>PALAVRAS RESERVADAS</strong> = São palavras que a Linguagem de programação usa para sua sintaxe, alguns exemplos que podemos usar em relação ao JS são: <em>if, else, else is, for, while, switch, var, let, const,  case, break, catch, await, finaly, true, false, null, new</em>, e mais uma infinidade de outras palavras...</li>
+        </ul>
+    </p>
+    <br>
+    <hr>
+    <br>
+    <h2>Informações importantes</h2>
+    <p>O JavaScript possui a tecnologia CASE-SENSITIVE</p>
+    <p><strong>Case Sensitive</strong> = Significa que o JavaScript faz distinção a formas de escrita, ou seja, para o JS a palavra "teste", "Teste" e "TESTE" são todas diferentes, e podem receber diferentes valores dentro delas, "teste" pode receber um "boolean", "Teste" póde receber um "number int" e "TESTE" pode receber uma "string" </p>
+    <br>
+    <h2>Existe uma convenção de escrita para declaração de variável no JavaScript:</h2>
+    <ul>
+        <li><strong>camelCase</strong> = seria escrever nossas variáveis na forma de camelo, ex: 
+            <ul>
+                <li>
+                    <p>Vamos declarar uma variável para armazenar o nome de uma pessoa, ficará mais ou menos assim: <strong>personName</strong></p>
+                </li>
+            </ul>
+        </li>
+        <li><strong>snake_case</strong> = Seria escrever nossa variável na forma de uma cobra, ex:
+            <ul>
+                <li>
+                    <p>Vamos declarar uma variável para armazenar o nome de uma pessoa, ficará mais ou menos assim: <strong>person_name</strong></p>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Obs: Sempre ao declararmos nomes para as variáveis, devemos declará-las em inglês</h3>
+</body>
+</html>

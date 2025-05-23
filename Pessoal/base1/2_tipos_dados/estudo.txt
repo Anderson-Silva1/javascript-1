@@ -1,0 +1,15 @@
+Em Javascript temos alguns tipos de dados, estes são:
+    1. NUMBER
+        - São como o número já diz, números... Podem tanto ser números inteiros quando números reais
+    2. STRING
+        - É basicamente os textos ou letras, que obrigatóriamente devem estar entre áspas simples, duplas ou crases... POdemos representar um número sendo também uma string: "11" => Como pesté exemplo... basta colocá-lo entre áspas simples, duplas ou crases
+    3. BOOLEAN
+        - É um dado lógico que representa dois valores: True (verdadeiro) e False (falso)
+    4. UNDEFINED
+        - Significa um valor indefinido, ele é usado quando o JS não consegue definir um tipo de dado para um determinado dado... ou seja, quando ele não for: Number, String, Boll ou Null ele será Undefined
+    5. NULL
+        - Este é um tipo de dado "nada"... ou seja ele não representa nada... Vale resaltar que null ≠ 0, 0 é um number que é passível de cálcula, já o null não é passível de cálculo, pois ele não representa nenhuma valor
+    6. NaN
+        - Esse é um tipo de resultado que vai sinalizar que determinada operação não poderá ser concluída pois uma das instâncias não é um number
+    7. FALSY
+        - 

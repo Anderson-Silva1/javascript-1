@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do While</title>
+</head>
+<body>
+    <h1>Do While</h1>
+    <p>"Do While" é parecido com o "While", a única diferênça é que o "Do While" vai execultar o código pelo menos uma vêz antes da expressão</p>
+    <p><strong>Sintaxe:</strong></p>
+    <pre>
+        let velocity = 110
+        let acceleration = 5
+
+        do {
+            console.log(`Acelerando: estamos a ${velocity} km/s`)
+            velocity += acceleration
+        } while(velocity &lt;= 100)
+    </pre>
+    <p>Nesse código "velocity" não é menor e nem igual a 100, "velocity" é 110... Mas perceba que o código será execultado, e o "velocity" será 110, o que está fora da expressão de validação "enquanto"(while)... Ou seja, o "Do While" vai execultar o código pelo menos uma vêz independente da expressão</p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parâmtros Padrôes</title>
+</head>
+<body>
+    <h1>Parâmtros Padrôes</h1>
+    <p>Os parâmetros padrôes servem para quando um parâmetro não for especificado na chamada de uma função, não dar um erro ou um valor undefined</p>
+    <pre>
+        function sum (a = "Número 1 não especificado",b = "Número 2 não especificado"){
+            const sum = a + b
+            console.log(sum)
+        }
+        
+        sum(1)
+    </pre>
+
+    <script src="./script.js"></script>
+</body>
+</html>

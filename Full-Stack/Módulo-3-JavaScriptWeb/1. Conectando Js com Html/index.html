@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligação do Js e o HTML</title>
+</head>
+<body>
+    <h1>Podemos ter o js interno dentro do HTML</h1>
+    <p>Atravéz da tag &lt;script&gt; &lt;/script&gt; para fazer isso, mas colocamos essa tag depois da tag body ou final de todos os elementos</p>
+    <p>Olhar o cod fonte para mais detalhes</p>
+
+    <script>
+        for(i = 0; i <= 10; i++) {
+            console.log("Número: ", i)
+        }
+    </script>
+
+    <hr>
+
+    <h1>Mas na vida real, usamos o Js externo</h1>
+    <p>usamos essa mesma tag &lt;script&gt; &lt;/script&gt; porrém com o atributo "src" para direcionar o endereço do arquivo Js</p>
+    <p>Olhar o cod fonte para mais detalhes</p>
+    <script src="app.js"></script>
+
+</body>
+</html>

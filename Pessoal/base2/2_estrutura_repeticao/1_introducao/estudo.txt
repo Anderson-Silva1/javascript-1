@@ -1,0 +1,36 @@
+ESTRUTURA DE REPETIÇÃO:
+    - Servem para facilitar nossa vida, pana não escrevermos código por código até o resultado, no caso escrevemos apenas um e ele vai se repetir até o resultado
+    - Se formos contar até 10, sem usar laços de repetição ficaria assim:
+        * console.log(1)
+        * console.log(2)
+        * console.log(3)
+        * console.log(4)
+        * console.log(5)
+        * console.log(6)
+        * console.log(7)
+        * console.log(8)
+        * console.log(9)
+        * console.log(10)
+    - E isso não é viável, imagine etr que escrever mil console.log para printar dio 1 até o 1000...
+    - Para isso usamos as estrututas de repetição...
+
+FOR:
+    - Em JavaScript temos o for, onde ele vai ser uma função e vai receber 3 parâmetros que são separados por ";":
+        * Declaração de variável
+        * Condição para repetição
+        * O que acontecerá a cada repetição
+    - Ele não possui tradução específica, mas ele vai ser execultado sempre que a condição da repetição for verdadeira (true)
+    - Com ele podemos iterar um array pegando a quantidade de elementos, e filtrando cada um (Olhar o exemplo no código)
+
+    - Para facilitar ainda mais nossa vida, podemos iterar um array e um objeto de forma facil usando operadores:
+        * of => Itera sobre os valores de um iterável (como arrays).
+        * in => Verifica se uma chave/propriedade existe em um objeto ou índice em um array.
+    
+WHILE:
+    - While é outra estrutura de repetição do JavaScript, e ele significa "enquanto"
+    - "Enquanto" uma condição for verdadeira, ele vai ser execultado, veja que não tem um limite de execulçõa predeterminado como no FOR
+    - Nele conseguimos criar um looping infinito
+    - Ele verifica antes de execultar o código
+
+DO WHILE:
+    - É outra estrutura de repetição em JavaScript onde vai funcionar como um WHILE, porém ele vai execultar pelo menos uma vêz por causa do DO

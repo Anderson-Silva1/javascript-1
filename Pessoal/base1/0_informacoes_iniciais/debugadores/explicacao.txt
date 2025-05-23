@@ -1,0 +1,26 @@
+DEBUGADORES, O QUIE SÃO??
+    - São formas de nós(programadores) testarmos nossos códigos...
+
+JavaScript é a principal linguagem de programação da WEB, e isso implica os navegadores conseguirem execultar cógigos JavaScripts, porém nessa primeira parte vamos usar uma extenção do VSCODE chamada "code Runner"
+
+TIPOS DE DEBUGADORES:
+    1. console.log()
+        - Esse é o principal debugador do JAvaScript que existe, com ele, conseguimos ver saídas de códigos e resultados de expressões...
+    2. console.info()
+        - Este retorna uma mensagem diferente da anterior, porém possui a mesma finalidade
+    3. console.warn()
+        - warn em inglês significa aviso, ou alerta... Usando esse comando irá retornar uma mensagem de alerta...
+    4. console.error()
+        - Este retornará um error
+    
+TIPOS DE DEBUGADORES EXTRAS:
+    1. alert()
+        - Este mostra uma caixa de mensagems de um navegadores
+    2. confirm()
+        - prompt
+    3. prompt()
+        - Este retorna uma caixa de texto, onde o usuário pode interagir escrevendo nela
+
+DEBUGADOR NAVEGADOR
+    - Podemos usar o navedados para debugar nosso código .js
+    - Fazemos isso importandfo um arquivo e importando em um outro arquivo HTML ou criando o código dentro de um arquivo HTML usando a tag SCRIPT

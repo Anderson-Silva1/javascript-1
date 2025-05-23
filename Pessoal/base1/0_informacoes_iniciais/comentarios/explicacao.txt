@@ -1,0 +1,9 @@
+COMENTÁRIOS, O QUE SÃO??
+    - Comentáriuos são linhas de código que não serão execultadas pelo nosso compilador
+    - Eles servem para instruir ao programador sobre o que um determinado trecho de código
+
+COMENTÁRIO DE UMA LINHA:
+// 'comentário'
+
+COMENTÁRIO DE DUAS OU MAIS LINHAS:
+/* 'comentário' */

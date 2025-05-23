@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de eventos</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        code {
+            font-family: initial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos aprender sobre as ptropriedades de eventos</h1>
+    <p>Podemos ver as Propriedades de um evento usando o seguinte codigo em JS com bordas azuis:</p>
+    <button id="button-test">Botão teste</button>
+    <pre style="font-weight: 300; font-size: 2em; border: 2px solid blue; border-radius: 20px; padding: 10px; letter-spacing: 5px;">
+        <code>
+const botao_teste = document.querySelector('#button-test')
+
+botao_teste.onclick = (propriedades) => {
+    console.log(propriedades);
+}
+        </code>
+    </pre>
+    <p>Esse código está colocando dentro de uma variável o nosso ID <code>"button-test"</code> e atribuindo a ele uma função onde os parâmetros dela são as pripriedades do próprio botão... <code>"propriedades"</code> são os parâmetros da nossa função e eles são chamados no <code>"console.log(propriedades);"</code>, e essas pripriedades nós conseguinmos ver de forma individual para os mais diversíficados ramos existentes no mundo usando apenas o "." de pois do no0sso parâmetro ficando assim: <code>console.log(propriedades.key)</code> </p>
+    <hr>
+    <p>Mas podemos usa de forma específica</p>
+    <p>Vamos criar um input e botão</p>
+    <br>
+    <input type="text" name="none do input" id="id_do_input" value="Homem">
+    <br>
+    <p>Neste input usamos a especificação de torno "key", onde retorna a própria tecla pra nós...</p>
+</body>
+<script src="script.js"></script>
+</html>

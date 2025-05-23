@@ -1,0 +1,12 @@
+OBJETOS:
+    - Objetos são estruturas de de dados assim como os arrays, na realidade, array também é um objeto, veremos isso mais na frente...
+    - Os objetos tentam transformar coisas do mundo real em computacional, pegando um objeto do mundo real, seja uma: "Pessoa", "Aninmal", "Carro", etc... E transformando em código
+    - os objetos recebem 2 informações: Chave e Valor
+        * Chave => É o nome que usamos para acessa o valor
+        * Valor => É o conteúdo que está naquela determinada Chave
+        * OBS: para cada nova chave de um objeto, devemos separar com uma ","(vírgula)... Porém se for a ultima ou a única chave não precisa...
+        * OBS²: um objeto deve estar dentro de uma variável para ser ultilizada em nosso código.
+    
+    - Os objetos em JavaScriopt são representados pelas {} (chaves)
+
+    - Vemos na prática...

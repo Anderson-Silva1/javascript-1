@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listening</title>
+</head>
+<body>
+    <h1>Vamos aprender sobre o Event listening</h1>
+    <p>Essa é uma função em JavaScript que ouve a função de algum evento e faz algo com ele, ou seja, ela vai ficar esperando o evento desejado acontecer para ela avisar ou rodar algum outro código</p>
+    <hr>
+    <button>Botão teste</button>
+
+    <select>
+        <option value="teste1">Teste 1</option>
+        <option value="teste2">Teste 2</option>
+        <option value="teste3">Teste 3</option>
+    </select>
+
+    <input>
+    <hr>
+    <p>Nesse modo de utilizar os eventos fazemos assim:</p>
+    <br>
+    <p><code style="font-size: 2em;">button.addEventListener('click', function() {
+        console.log("Este botão foi clicado");
+    })</code></p>
+    <br>
+    <p>Onde pegamos uma variável que já tem um elemento HTML armazenado em si, junto com o <code>".addEventListener()"</code> ... E dentro desses parênteses estarão duas instruções separadas por ",", onde a primeira instrução é o evento que vai acontecer (sem o "on" na frente, por exemplo: <code>click</code>) e a segunda instrução é o que o <code>"addEventListener"</code> vai fazer quando esse evento acontecer.</p>
+    <p>Nesse caso, quando o botão tiver o evento de <code>"click"</code>, ele vai dar um <code>console.log("Este botão foi clicado")</code></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

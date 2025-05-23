@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+    <style>
+        span {
+            color: blue;
+            font-size: 1.1rem;      
+        }
+    </style>
+</head>
+<body>
+    <h1>Array</h1>
+    <p>Array é uma estrutura de dado, ou seja ela pode armazenar e organizar outros dados</p>
+    <p>Os Array são organizados em forma de listas, onde conseguimos selecionar através de seu índice, que é a posição desse dado dentro desse Array</p>
+    <p>Dentro do Array podemos armazenar quaisquer outros tipo de dado, seja eles: tring, Number, Boolean, Null, Undefined, Falsy... E até outro Array...</p>
+    <p>Nosso Array é basicamente uma variável que recebe uma lista que é especificada pelos colchetes [ " Valor " ]... Para adicionarmos mais dados a nossa listausamos a vírgula (,): <code><span>let listaTeste = ["lista", true, 10, undefined, null, 0]</span></code></p>
+    <p>Para selecionarmos um dado de uma lista precisamos usar a seguinte sintaxe: lista["index"]... Ou seja, precisamos colocar o nome da lista e colocar entre os colchetes índice desse dado... Aplicando no exemplo a cima, teremos a seguinte sintaxe: <span>listaTeste =></span> Para selecionar toda a lista; <span>listaTeste[0]</span> => Para selecionar o primeiro índice e assim por diante</p>
+    <p>Podemos usar tambem, para criar um Array, o contrutor Array: <span>new Array()</span>, basicamente vai ser a mesma coisa, vai criar um Array da mesma forma dos colchetes, porém tem um peculiaridade... Ao usarmos esse contrutor Array devemos ter cuidado como que ele compõe, se for uma lista com Strings, pode ficar tranquilo que vai dar certo... Se for uma lista com Valores variádos, vai dar certo... Porém se for um array que contém apenas um número, precisamos ter cuidado, pois ele não vair criar um índice de uma lista com esse número, ele vai criar o tanto de índices que esse numero possui, e cada um desses índices terão o valor "undefined"</p>
+    <p>Olhar a Fonte</p>
+
+    <script src="./script.js"></script>
+</body>
+</html>

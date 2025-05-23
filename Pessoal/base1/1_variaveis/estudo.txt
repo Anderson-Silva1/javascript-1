@@ -1,0 +1,13 @@
+VARIÁVEIS, O QUE SÃO??
+    - São espaços reservados e nomeados que ficam dentro da memória do nosso computador, que usaremos dentro do nosso código
+    - Ou seja, são dados nomeados.
+
+VARIÁVEIS EM JAVASCRIPT:
+    1. JavaScript é uma linguagem que possui a tipagem dinâmica, o que significa que não precisamos definir o tipo de dado de uma variável
+    2. Existem 3 tipos de variáveis em JavaScript:
+        a. VAR
+            - É um tipo de variável Global e volátil, o que significa que conseguiremos usá-la em todas as áreas do nosso código (não usamos mais ela) e modificá-la quando bem entendermos.
+        b. LET
+            - É um tipo de variável Local e volátil, o que significa que só conseguiremos acessá-la dentro de seu escopo de origem (que pode ser uma função, uma estrutura de descisão, estrutura de repetição...), conseguimos também modificá-la, porém isso só é possível dentro de seu escopo origem... Usamos ela para definir nossas variáveis.
+        c. CONST
+            - É um tipo de variável Local e não volátil, o que significa que só conseguiremos acessá-la dentro de seu escopo de origem (que pode ser uma função, uma estrutura de descisão, estrutura de repetição...), e não conseguimos modificá-la, pois é uma constante... Geralmente usamos ela para definir nossas variáveis.
