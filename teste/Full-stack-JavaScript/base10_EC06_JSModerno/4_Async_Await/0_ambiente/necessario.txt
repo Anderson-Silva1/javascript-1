@@ -1,0 +1,34 @@
+NECESSÁRIO:
+    - Vamos trabalhar agora com funções assincronas
+    - Os navegadores não conseguiram acompanhar ainda
+    - Precisaremos do babel
+
+
+RELEMBRANDO SOBRE A INSTALAÇÃO DO BABEL:
+    - Instalamos as dependências:
+        * npm install --save-dev babel-loader @babel/core
+
+        * npm install @babel/preset-env --save-dev
+            * Criamos então o arquivo: babel.config.json
+                {
+                   "presets": ["@babel/preset-env"]
+                }
+            
+
+        Criamos também o arquivo webpack:
+            {
+                module: {
+                    rules: [
+                    {
+                        test: /\.m?js$/,
+                        exclude: /node_modules/,
+                        use: {
+                        loader: "babel-loader",
+                        options: {
+                            presets: ['@babel/preset-env']
+                        }
+                        }
+                    }
+                    ]
+                }
+            }

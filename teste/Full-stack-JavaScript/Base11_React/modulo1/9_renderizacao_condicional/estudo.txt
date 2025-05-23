@@ -1,0 +1,3 @@
+RENDERIZAÇÃO CONDICIONAL:
+    - É renderizar um elemento na tela do nosso projeto dependendo de uma condição
+    - Com o React podemos fazer isso de forma simples, usando as estruturas do próprio JavaScript (if, else, else if)

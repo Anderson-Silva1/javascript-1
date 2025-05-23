@@ -1,0 +1,8 @@
+O QUE SÃO MÉTODOS??
+    - Em classes, métodos são funções que vamos usar para trabalhar com objetos (instâncias)
+    - Métodos fazem coisas específicas em um objeto, e podem ser das mais variádas coisas, desde cálculos até a apenas mostrar na tela uma mensagem
+
+COMO DEFINIMOS MÉTODOS:
+    - Ainda dentro da class, fora e depois do construtor, criamos uma função, e essa função será nosso método
+    - Não é preciso usar a palavra reservada funtions para declarar um método, o JS já entende altomáticamente...
+    - Dentro dos métodos podemos interagir com outros atributos da nossa intância, para isso usamos a palavra reservada "this", que referência o próprio objeto...

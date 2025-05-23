@@ -1,0 +1,33 @@
+USANDO REACT:
+    - Podemos usá-lo para criar toda a nossa interface de UI, todo nosso sistema SPA
+    - Podemos simplesmente adicioná-lo ao nosso projeto já existente
+
+COMO O REACTFUNCIONA?
+    - Em um arquivo HTMl teremos um adiv com o ID "root"
+    - Em JavaScript, num arquivo separado, criamos nosso primeiro componente: <h1>Hello World!</h1>
+
+COMO O REACT ATUALIZA AS VIEWS??
+    - Primeiro precisamos entender o que é o DOM:
+        * É um objeto/interface criado pelo browser que representa a estrutura do nosso documento HTML e que nos dá meios para insteragir com ele (usando em geral o JavaScript para fazer isso...)
+    
+    - No React temos um carinha chamado VIRTUAL DOM:
+        * Que é uma representação em JavaScript do DOM verdadeiro. Quando alterações e eventos acontecem, primeiro o React atualiza o VIRTUAL DOM, analisa as mudanças e o que precisa ser atualizado no DOM, e depois realiza isso conciliando a VIRTUAL DOM e o DOM verdadeira
+
+POR QUE NÃO ACESSAR O DOM DIRETAMENTE?
+    - Acessar o DOM é mais lento que as operações em JavaScript
+    - O VIRTUAL DOM altomáticamente encontra a maneira mais econômica de atializar o DOM (atualizando apenas os elementos necessários)
+
+O QUE SÃO ESSES ELEMENTOS??
+    - Os menos blocos do React são os elements, atravéz deles é o que descrevemos o que vai ser mostrado na tela.
+
+        * const elements = <h1>Hello, World</h1>;
+
+    - DIferente dos elementos do DOM, os elementos do React são objetos simples e "baratos" de criar
+    - O VIRTUAL DOM é resposnável por atualizar e exibir esses elementos na tela
+    - Para renderizar um elemento, primeiro escolhemos um nó no DOM,
+        EXEMPLO:
+            <div id="root"></div>
+            * Tudo dentro desse nó será atualizado pelo VIRTUAL DOM
+    - Agora para inserirmos nossos elementos na tela, podemos rodar:
+        * const element = <h1>Hello World</h1>;
+          ReactDOM.render(element, document.getByElementId('root'));

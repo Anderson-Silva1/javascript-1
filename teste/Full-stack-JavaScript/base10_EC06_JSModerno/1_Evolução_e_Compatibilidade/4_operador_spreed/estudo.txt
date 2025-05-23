@@ -1,0 +1,7 @@
+SPREED OPERATOR OU OPERADOR SPREED:
+    - É um recurso disponível apartir do ES6
+    - Ele permite expandir ou espalhar (spred) os elementos de um objeto iterável
+    - Objetos Iterais são objetos que conseguimos percorrer elemento por elemento, ex: Array, String
+
+COMO USAR?
+    - Podemos usar ele em um Array usando o "..."

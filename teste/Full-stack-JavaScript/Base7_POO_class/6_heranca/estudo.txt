@@ -1,0 +1,12 @@
+HERANÇA, O QUE É??
+    - É um recurso do paradigma Orientado a objetos
+    - Permite classes herdarem características/atributos de outras classes
+    - É uma tyécnica de reúso de código
+    - As duas classes devem ter a relação de "é um":
+        * Por exemplo: "Todo capitão é uma pessoa"
+        * Nesse caso poderíamos ter uma classe "Capitao" herdando os atributos e métodos da classe "Pessoa"
+
+COMO USAR A HERÂNÇA??
+    - Usamo a palavra reservada "extends";
+    SINTAXE: class Capitao extends Pessoa {}
+        * Aqui acima temos uma classe capitão herdando os atributos e os métodos (inclusíve o método construtor) da Class Pessoa.

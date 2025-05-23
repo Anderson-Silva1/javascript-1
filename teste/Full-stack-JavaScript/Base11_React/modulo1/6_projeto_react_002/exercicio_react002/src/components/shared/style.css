@@ -1,0 +1,12 @@
+.img-gray-scale {
+    transition: all 1s;
+    cursor: pointer;
+    width: 300px;
+    margin-right: 10px;
+
+}
+
+.img-gray-scale:hover {
+    transition: all 1s;
+    filter: grayscale(100%);
+}

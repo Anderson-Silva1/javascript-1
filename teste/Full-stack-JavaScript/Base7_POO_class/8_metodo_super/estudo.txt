@@ -1,0 +1,4 @@
+MÉTODO SUPER:
+    - O método super em JavaScript é utilizado para acessar e chamar funções do objeto pai ou classe pai
+    - Usamos esse método quando queremos usar um método da classe pai, quando esse método é sobrescrito na classe filho.
+    - Usamos também para pegar

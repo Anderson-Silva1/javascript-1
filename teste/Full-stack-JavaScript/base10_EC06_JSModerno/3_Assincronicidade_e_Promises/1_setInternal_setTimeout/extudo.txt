@@ -1,0 +1,14 @@
+setInterval:
+    - É uma função de alta ordem, o que significa que recebe outra função como parâmetro
+    - Execulta função depois de um determinado tempo percorrido
+    - Execulta em interválos de tempos
+
+setTimeout:
+    - É uma função de alta ordem, o que significa que recebe outra função como parâmetro
+    - Execulta função depois de um determinado tempo percorrido
+    - Execulta apenas uma vez
+
+AMBAS:
+    - Quando execultamos, tanto o setInterval quando o setTimeout, é retornado para nós o ID da execulção
+    - Com esse ID podemos parar a execulção usando o comando "clear" em conjunto com o nome da função (setInterval ou setTimeout)
+    - Veja nos respectivos arquivos...

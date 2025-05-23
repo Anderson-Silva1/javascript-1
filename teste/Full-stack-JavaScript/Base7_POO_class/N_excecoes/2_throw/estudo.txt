@@ -1,0 +1,4 @@
+PROJETO TESTE:
+    Vamos criar uma Class nave, onde vai receber o nome e a quantidade de 5 tiro que ela pode dar, e a cada tiro iremos subtrair do totaL de tiros restantes...
+
+    

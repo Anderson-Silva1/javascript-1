@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparação de dados</title>
+    <style>
+        span.true {
+            color: green;
+            text-transform: uppercase;
+        }
+
+        span.false {
+            color: red;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1>Comparação de dados</h1>
+    <p>São operações que contém o resultado boleano, verdadeiro ou falso, true ou false...</p>
+
+    <h2>sinal = "=="</h2>
+    <p>Significa igualdade, EX:</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity <span class="true">==</span> 90)
+    </pre>
+    <p><strong>resultado</strong>: True</p>
+
+    <br>
+
+    <p>Ainda pelo sinal "=="</p>
+    <p>Como já foi explicado o JS tem um atipagem dinâmica, ou seja, ele consegue mudar o tipo de dado com mais facilidade</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity <span class="true">==</span> "90")
+    </pre>
+    <p>Nesse caso estamos comparando o number valor 80 com a string valor 80, que dará o resultado <span>True</span>, ou seja com esse sinal ele não considera o tipo de dado...</p>
+
+    <br>
+
+    <h2>Sinal = "==="</h2>
+    <p>Tambvém significa igualdade, porém é uma igualdade mais específica</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity <span class="false">===</span> "90")
+    </pre>
+    <p>Esse resultado dará <span class="false">false</span> pois o tippo de dado é diferente</p>
+
+    <br>
+
+    <h2>Sinal = "!="</h2>
+    <p>Este sinal significa DIFERENTE</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity <span class="true">!=</span> 80)
+    </pre>
+    <p>Como resultado dará <span class="true">true</span>, pois 90 é diferente de 80...</p>
+
+    <br>
+
+    <h2>Ainda sobre o sinal = "!="</h2>
+    <pre>
+        const velocity = 90
+        console.log(velocity != "90")
+    </pre>
+    <p>Perceba que neste exemplo dará o valor false, onde está dizendo que 90 não é diferente de "90"</p>
+    <p>Podemos usar o diferente específico, que difere também o tipo de dado</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity !== "90")
+    </pre>
+    <p>Dessa forma ele irá distinguir o tipo de dado e conseguirá diferenciar, ou seja, dará o valor <span class="true">true</span> pois 90 é diferente de "90"</p>
+
+    <br>
+
+    <h2>Sinal = "&lt;"</h2>
+    <p>Este sinal simboliza "Menor que"</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity &lt; 100)
+    </pre>
+    <p>Teremos a resposta <span class="true">true</span> pois 90 é menor que 100</p>
+
+    <br>
+
+    <h2>Sinal = "&gt;"</h2>
+    <p>Este sinal simboliza "Maior que"</p>
+    <pre>
+        const velocity = 90
+        console.log(velocity &gt; 100)
+    </pre>
+    <p>Teremos a resposta <span class="false">False</span> pois 90 não é maior que 100</p>
+
+    <h2>Sinal = "&lt;=" ou "&gt;="</h2>
+    <p>Estes sinais simbolizam: Menor ou igual a... ou Maior ou igual a.... Respectivamente...</p>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

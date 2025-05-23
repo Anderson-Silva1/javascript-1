@@ -1,0 +1,20 @@
+DESESTRUTURAÇÃO DE OBJETOS E ARRAYS:
+    - É uma expressão JS que possibilita extrair dados de arrays ou objetos em variáveis distintas
+    - Foi lançaca na versão ES6 EM 2016
+
+DESESTRUTURAÇÃO OBJETOS:
+
+    * Sem a desestruturação usaríamos assim:
+        - let nomePessoa = objeto.nome
+        - let idade = objeto.idade
+    * Com a desestruturação usamos assim:
+    1. Usamos a palavra reservada para a declaração da variável (var, let, const)
+    2. Abrimose fachamos colchetes ({})
+    3. colocamos a chave(s) e o(os) valor(es) do nosso objeto e colocamos dentro dos colchetes:
+        * let { nome: nomePessoa, idade: idade }
+        * "nomePessoa" e "idade" são as variáveis que serão criadas pelo desestruturador
+    4. Por fim colocaremos essa expressão para receber o nosso objeto
+        * let { nome: nomePessoa, idade: idade } = objeto
+    5. Podemos simplificar ainda mais nossa desestruturação:
+        * Se o nome da chave for igual ao nome da variável (valor da chave) que será criada, podemos ocultar o nome da variável e deixar apenas a chave:
+            - let { nome: nomePessoa, idade } = objeto

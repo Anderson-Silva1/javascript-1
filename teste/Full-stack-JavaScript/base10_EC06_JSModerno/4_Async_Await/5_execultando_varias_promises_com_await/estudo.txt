@@ -1,0 +1,2 @@
+EXECULTANDO VÁRIAS PROMISES COM O AWAIT:
+    - Podemos usar o método estático da Promise: "all", para realizar operações assincronas atônicas, ou seja, serão execultada ao mesmo tempo, mas se um der erro, será mostrado esse erro, e irá pular o resultado correto de outra Promise

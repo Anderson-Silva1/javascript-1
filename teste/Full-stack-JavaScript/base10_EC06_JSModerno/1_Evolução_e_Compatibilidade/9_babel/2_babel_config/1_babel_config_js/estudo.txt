@@ -1,0 +1,22 @@
+USANDO O BABEL.CONFIG.JS:
+
+    - O primeiro passa para configurar o Babel é criar o arquivo de configuração: "babel.config.js"
+
+    - Depois, dentro desse arquivo criado, criamos uma variável reecebendo um array com um sub array
+
+    - Dentro desse sub array, ele vai esperar como o primeiro elemento qual o pacote que usaremos para a conversão do código, no nosso caso é o "babel/preset-env"
+        * npx babel src --out-dir dist --presets=@babel/preset-env
+        * Estamos colocando tudo isso no arquivo de configuração para não precisar mandar na linha de comando depois
+
+    - Por fim exportamos usando o comando: "module.exports = { presets }"
+
+    - Agora podemos rodar o comando: "npx babel src --out-dir dist" para transpilar nosso código
+
+    - Podemos colocar no nosso preset, uma ferramente que chamamos de "corejs"
+        * codejs é um pacote que usamos para importar recursos que o ECMA 5 não tem nativamente
+
+    - Para isso instalamos ela pelo npm: "npm install core-js@3 --save"
+        * Como queremos apenas a versão 3 do core-js, então usamos o @ para definir a versão, no caso a "3"
+
+    - Agora configuraremos o nosso preset, para isso vamos criar um objeto no índex 1 do sub array presets
+    - Criamos a chave: useBiuld

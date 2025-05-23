@@ -1,0 +1,1 @@
+!function(e){setInterval((()=>{new Promise((function(o,n){e+=20,console.log("Nova velocidade: "+e),o(e)}))}),2e3)}(0);

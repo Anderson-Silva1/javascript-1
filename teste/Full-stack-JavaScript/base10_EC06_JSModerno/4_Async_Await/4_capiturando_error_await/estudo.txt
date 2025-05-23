@@ -1,0 +1,5 @@
+CAPITURANDO ERROR:
+    - Até agoraaprendemos a disparar um erro udando o método estático da Promise
+    - Mas para capiturar um Error dentro do ASYNC FUNCTION usamos o TRY CATCH, tratamento de erros...
+
+    - LEMBRANDO: Só conseguimos usar o AWAIT se for para chamar outra ASYNC FUNCTION

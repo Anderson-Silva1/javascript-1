@@ -1,0 +1,11 @@
+AWAIT:
+    - É uma palavra chave usada dentro de uma ASYNC FUNCTION
+    - Com ela, é possível aguardar a execução de uma Promise
+        * Só é possível ultilizar quando temos uma Promise que depende da execulção de outra
+
+    - Faz com que a chamada da Promise retorne diretamente o seu resolve
+    - Com o AWAIT podemos eliminar o uso do THEN interno a outro
+    - Quando ocorre algum erro podemos usar o tratamentode eceções
+
+
+    - Em outras palavras, o AWAIT vai afzer o código assíncrono esperar a execulção de uma determinada função para dar continuidade com o código assíncrono

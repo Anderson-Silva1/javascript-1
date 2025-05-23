@@ -1,0 +1,3 @@
+VAMOS USAR AS PROPS:
+    - Props são parâmetros de Funções
+    - Podemos usar a desestruturação nelas...

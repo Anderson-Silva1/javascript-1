@@ -1,0 +1,4 @@
+USANDO O THEN:
+    - É um método da Class Promises
+    - Ele recebe uma função dentro de seu parâmetro
+    - E no parâmetro dessa função ele recebe o valor "resolve" da Promise

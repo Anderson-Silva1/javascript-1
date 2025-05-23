@@ -1,0 +1,21 @@
+O QUE É UM CONTRUTOR??
+    - é uma função ou um método especial de cada "class" que é usada para criar e inicializar objetos.
+    - Em JavaScript, criamos um contrutor usando a palavra reservada "new" (que é a mesma palavra que podemos usar para criar um ARRAY: "let array = new Array ()" )
+    - Com ele criamos objetos
+
+O QUE É ATRIBUTOS??
+    - São as características de todas as instâncias de uma determinada classe
+    - É graças a esse atributos que torna a POO uma dos principais paradigmas da atualidade
+    - Para definirmos devemos criar um construtor, que, como já falamos, é um método especial de uma classe que é executado quando um novo objeto é criado a partir da classe.
+    - O objetivo do constructor é inicializar o objeto, ou seja, configurar suas propriedades iniciais.
+    - E para configurá-lo usamos a palavvra reservada "construtor"
+
+CRIANDO UM CONSTRUTOR:
+    1. Usamos a palavra reservada "construtor"
+    2. Abrimos parênteses e dentro deles passamos os nossos atributos por parâmetro: constructor (nome, idade, endereco...)
+    3. Abrimos colchetes e dentro dele criamos nossos atributos, que irá receber os atributos passados por parâmetro
+    4. Para criamos um atributo precisamos usar a palavra reservada "this"
+        - this => Ele é usado para acessar ou atribuir as propriedades e métodos do objeto.
+        - Em um construtor, this refere-se ao novo objeto que está sendo criado pela classe.
+        SINTAXE: "this.name = name"
+    

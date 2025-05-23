@@ -1,0 +1,3 @@
+EVENTOS EM REACT:
+    - São exatamente os mesmos eventos do JavaScript puro
+    - Vamos ver hj sobre o oneClick

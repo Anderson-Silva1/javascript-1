@@ -1,0 +1,3 @@
+O QUE É ESTADO EM REACT?
+    - State ou Estado é um objeto JavaScript que guarda os dados de um componente determina seu comportamento
+    - Quando um estado é atualizado o componente é re-renderizado

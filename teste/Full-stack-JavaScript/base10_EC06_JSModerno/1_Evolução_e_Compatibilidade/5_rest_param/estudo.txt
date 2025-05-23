@@ -1,0 +1,4 @@
+AINDA SOBRE O SPREAD:
+    - rest param é uma das funcionalidades do spread operator
+    - Podemos usar ele para fazer um afunção receber um número indeterminado de parâmetros, o que chamamos de rest param
+    - Dentro de uma função ele pode ser vir como um baú para guardar o restante dos dados, ou todos os dados

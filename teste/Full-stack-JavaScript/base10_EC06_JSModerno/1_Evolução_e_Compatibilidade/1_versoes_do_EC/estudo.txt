@@ -1,0 +1,10 @@
+O QUE É EC??
+    - EC é a abreviação para ECMA-SCRIPT que é o nome oficial do JavaScript
+    - ECMA significa => European Computer Manufacturesr Association (É uam assiciação de padronização de sistemas de informação)
+    - Hoje é 30/09/2024 e estamos na vesrão ES14 lançado em 2023
+    - Vale resaltar que a cada atualização, é melhorado algumas funcionalidades, e corrigido alguns bugs
+    - Vale resaltar também que existe um problema de suporte aos navegadores, que são funcionalidades do ES atual que não é suportada pelos navegadores, pois os ES ou JS cresce exponêncialmente, mas os navegadores não...
+
+    - Para isso, surge uma solução, ferramentas que convertem nosso código do ES atual para um ES que os navegadores suportam, o que permite que nós (desenvolvedores) usemos as versões mais recentes do ES sem causa problemas de suporte ao navegador
+
+    - Existe um site: https://caniuse.com/, onde ele vai nos dizer quais funcionalidades do ES ou JS são suportadas nos navegadores usados atualmente

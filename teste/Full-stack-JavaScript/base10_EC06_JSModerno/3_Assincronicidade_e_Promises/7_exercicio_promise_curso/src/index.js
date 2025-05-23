@@ -1,0 +1,32 @@
+import Carro from "./Carro";
+import LigarCarro from "./LigarCarro";
+
+let carro1 = new Carro("Corola", 100, 50)
+let carro2 = new Carro("Touro", 140, 100)
+let carro3 = new Carro("Fusca", 200, 40)
+let carro4 = new Carro("Celta", 600, 30)
+let carro5 = new Carro("UNO Redondo", 340, 300)
+let carro6 = new Carro("UNO Quadrado", 300, 240)
+let carro7 = new Carro("Civic", 600, 560)
+let carro8 = new Carro("Camaro", 300, 300)
+let carro9 = new Carro("Amarote", 800, 20)
+
+let carro1Ligar = new LigarCarro(carro1)
+let carro2Ligar = new LigarCarro(carro2)
+let carro3Ligar = new LigarCarro(carro3)
+let carro4Ligar = new LigarCarro(carro4)
+let carro5Ligar = new LigarCarro(carro5)
+let carro6Ligar = new LigarCarro(carro6)
+let carro7Ligar = new LigarCarro(carro7)
+let carro8Ligar = new LigarCarro(carro8)
+let carro9Ligar = new LigarCarro(carro9)
+
+carro1Ligar.ligar()
+carro2Ligar.ligar()
+carro3Ligar.ligar()
+carro4Ligar.ligar()
+carro5Ligar.ligar()
+carro6Ligar.ligar()
+carro7Ligar.ligar()
+carro8Ligar.ligar()
+carro9Ligar.ligar()

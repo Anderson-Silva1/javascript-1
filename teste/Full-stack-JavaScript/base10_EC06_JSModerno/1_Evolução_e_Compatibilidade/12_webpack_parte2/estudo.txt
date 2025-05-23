@@ -1,0 +1,36 @@
+AVAMOS APRENDER SOBRE O ARQUIVO DE CONFIGURAÇÃO DO WEBPACK:
+    - Primeiro criamos nosso arquivo "webpack.config.js"
+    - Usamos o "module.exports" recebendo um objeto
+    - Esse objeto vai conter uma chave chamada "entry", e o valor dessa chave vai ser outro objeto, onde teremos a chave "index" e o valor "vai ser o caminho do arquivo que o webpack vai usar"
+        Sintaxe:
+            module.exports = {
+                entry: {
+                    index: "<Caminho do arquivo à ser usado>"
+                }
+            }
+    - Dessa forma não será mais criado o arquivo padrão "main.js", mas será criado o mesmo arquivo que foi lido pelo webpack
+    - Basta agora apenas execultar o webpack usando o comando: "npx webpack"
+    - Podemos usar tbm uma flag para, caso tenha um erro em nossa aplicação, o webpack irá retornar esse erro e não execultará o processo: --mode development
+
+    - Vamor criar um novo arquivo chamado "error.js" e vamos importá-lo dentro do nosso index.js na pasta src
+    - E rodaremos o comando npx webpack --mode development
+    - Irá retornar: "webpack 5.95.0 compiled with 1 error and 1 warning in 510 ms"
+
+
+MAIS DE UAM ENTRADA NO WEBPACK:
+    - Podemos adicionar mais de uma entrada no nosso webpack
+    - Para isso precisamos colocar mais um atributo ao nosso objeto entry que está dentro da module.exports
+
+PADRÃO DE NOMECLATURA PARA OS EXPORTS:
+    - Podemos ter um padrão de saída do nosso webpack
+    - Para isso importamos primeiramente o módulo interno do NodeJS "path"
+        * Criamos uma variável recebendo require("path"): const path = require("path")
+        * Esse módulo fornece utilitários para trabalhar com caminhos de arquivos e diretórios de maneira independente do sistema operacional.
+    - Depois criamos outro atributo do objeto module.exports chamado "output" e ele receberá uma chave chamada "filename" com o valor: "[name].bundle.js"
+        * bundle => Refere-se ao fato de que este arquivo é o resultado do bundling
+        * bundling => O bundling é o processo de combinar vários arquivos JavaScript e seus módulos dependentes (como módulos import ou require) em um único arquivo. Isso melhora o desempenho ao carregar scripts na web, reduzindo o número de requisições HTTP.
+    - E precisamos também indicar um caminho para esses arquivos
+    - Usamos então outra chave chamada "path" com o valor "path.resolve(__dirname, 'dist')"
+
+    - Resumo, estamos pegando os arquivos gerados pelo webpack e formatando a saída deles, sendo o padrão: [nome].banble.js, depois estamos setando co caminho para esses arquivos:     
+        * __dirname => Referência a pasta do diretórios que está sendo comcetenada com a pasta "dist": path.resolve(__dirname, 'dist')

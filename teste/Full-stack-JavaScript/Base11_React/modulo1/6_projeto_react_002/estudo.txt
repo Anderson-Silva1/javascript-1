@@ -1,0 +1,2 @@
+ESTUDO:
+    -  Vamos dividir e reutilizar nossos componentes

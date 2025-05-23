@@ -1,0 +1,18 @@
+BABEL CONFIG:
+    - Babel 7 foi lançado em 2018
+    - Antes desse lançamento o BAabel possuia como arquivo de configuração apenas o ".babelIrc"
+    - No Babel 7, passou a ser recomendado a ultilização do Babel.config.js
+
+DIFERÊNÇA "Babel.config.js" e "BabelIrc":
+
+    Babel.config.js:
+        * É um arquivo de JavaScript
+        * Configuramos os "presets", "plugins" e etc...
+        * Lido no momento de converter os arquivos
+        * Ultilizado na raíz do projetopara as configurações padões
+
+    BabelIrc:
+        * É um arquivo JSON
+        * Configuramos os "presets", "plugins" e etc...
+        * Lido no momento de converter os arquivos
+        * É usado em subdiretórios para sobreescrever os valores padões que vem no "Babel.config.js"

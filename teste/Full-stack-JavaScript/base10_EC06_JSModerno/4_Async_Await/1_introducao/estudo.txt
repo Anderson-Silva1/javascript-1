@@ -1,0 +1,7 @@
+FUNÇÕES ASSINCRONAS OU Async:
+    - São funções que lidam com ações assíncronas 
+    - Retornam uma Promise, o que significa que podemos trata-lo como um Promise, pegando THEN e o CATCH
+    - Com ele evitamos de ficar instânciando Proises manualmente
+
+    - As ASYNC retornam uma Promise, porém não usamos nem o 'resolve' e nem o 'reject'
+    - Por padrão ela vai retornar o "resolve"

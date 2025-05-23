@@ -1,0 +1,2 @@
+TRATAMENTO DE ERROS EM ASYNC:
+    - Para visualizar os erros da nossa ASYNC pode retornar podemos usar um método Estático da Promise chamado "reject" no retunr da função

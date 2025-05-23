@@ -1,0 +1,22 @@
+PROMISES:
+    - É uma Class do JavaScript que dá suporte a operações assíncronas
+    - Guardam operações que precisam dentro de um objeto cuja class é chamado de Promise
+    - Quando precisamos execultar, basta chamar este objeto
+    - A Promise possui 4 estados:
+        * PENDENTE - Que é o estado padrão de uma Promise, de quando criamos ela e ela ainda não foi execultada
+        * REALIZADA - Quando teve sucesso na operação
+        * RECUSADA - Quando teve falha na operação
+        * ESTABELECIDA - Quando foi realizada ou recusada
+    
+    - Pendente é o estado inicial 
+    - Nós descidimos se ela vaia para a Realizada oui Recusada
+    - A Promise é o objeto contrutor de sua Class
+
+SINTAXE:
+    new Promise((resolve, reject) =>{
+        <código da Promise>
+    })
+
+    - A promise recebe como parâmetro duas funções: resolve (Realizada) e reject (Recusada)
+    - resolve => É o que será retornado para o que o programador considera como "Realizado"
+    - Reject => Estora um "error" no nosso código, onde o programador também descide o que será esse error...

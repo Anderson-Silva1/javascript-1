@@ -1,0 +1,13 @@
+O QUE É NTX???
+    - Quando temos um arquivo instalado apenas localmente, esse NPX vai referenciar a pasta ".bin" dentro da node_modules
+    - Na realidade, quando usamos "npx", estamos usando "./node_modules/.bin/...<script específico>"
+
+NPM:
+    - É um repositório de modulos de JS, onde conseguimos ver também a documentação de cada módulo
+    - Com ele podemos cria atalhos de comandos para nosso código
+    - Para isso precisamor ir até o arquivo "package.json"
+    - Ir até ao "scripts", e adicionar um atalho de comando
+    - O atalho que vamos usar é o atalho de tranpilar nosso código (primeiro instalamos o Babel)
+    - Comando: "buiild": "npx babel <pasta ou arquivo a ser transpilado> -o <para onde essas transpilação irá, pasta ou arquivo>"
+    - Agora é có colocar o atalho criado, mas colocamos primeiro o "npm run" que vai expecificar ao nosso projeto que queremos execultar um comando do nosso "script"
+    - "npm run build"

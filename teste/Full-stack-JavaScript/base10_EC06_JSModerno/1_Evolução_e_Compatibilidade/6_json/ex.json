@@ -1,0 +1,10 @@
+{
+    "nome": "Terra",
+    "caracteristicasFisicas": {
+        "areaTotal": 510072000,
+        "diametroEquatorial": 12756.2
+    },
+    "cores": ["Azul", "Verde", "Marrom"],
+    "inicioRotacao": "00:00",
+    "fimRotacao": "23:59"
+}

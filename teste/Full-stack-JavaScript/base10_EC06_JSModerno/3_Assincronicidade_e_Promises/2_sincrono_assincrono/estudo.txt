@@ -1,0 +1,9 @@
+SÍNCRONO:
+    - Segue o fluxo linear, ou seja, não pula etapas
+    - Execulta passo a passo do trexodo código
+    - Só execulta uma instrução após a anterior ser execultada
+
+ASSÍNCRONO:
+    - Não segue o formato linear, ou seja, pode pular etapas
+    - Não aguarda o fim da execulção para passar para o próximo passo
+    - Passa para a instrução seguinte sem aguardar a conclusão da atual

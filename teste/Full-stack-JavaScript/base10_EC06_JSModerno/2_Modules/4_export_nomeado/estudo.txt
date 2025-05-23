@@ -1,0 +1,5 @@
+EXPORT NOMEADO:
+    - No export defaul nós exportamos toda a pasta
+    - No export nomeado nós podemos exportar mais de um elemento do nosso código
+    - Com esse modo de importação podemos importar mais de um módulo por aquivo
+

@@ -1,0 +1,16 @@
+MÓDULO COMMON JS
+    - No commonJS temos um recurso chamado "module", e esse recurso possui uma função: "exports"
+    - Essa função vai exportar um determinadodado ou estrutura do JS
+        SINTAXE: module.exports = <o que irá ser exportado>
+
+        * Aqui pode ser exportado de duas formas, usando variáveis, ou usando as estruturas própriamente ditas:
+
+            Variáveis:
+                let variavel = "Estou sendo exportada"
+                module.exports = variavel
+            
+            Estrutura:
+                module.exports = {
+                    let variavel = "eu estou sendo exportada"
+                }
+    - 

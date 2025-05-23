@@ -1,0 +1,29 @@
+.img_planet {
+    width: 300px;
+    transition: all 1s;
+}
+
+.img_planet:hover {
+    transition: all 1s;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.p_uperCase {
+    text-align: center;
+}
+
+.p_uperCase:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.titulo {
+    font-size: 3em;
+    transition: all 1s;
+}
+
+.titulo:hover {
+    transition: all 1s;
+    font-size: 4em;
+}

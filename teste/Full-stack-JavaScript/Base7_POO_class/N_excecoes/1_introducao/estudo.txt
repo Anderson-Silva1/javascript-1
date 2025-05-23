@@ -1,0 +1,8 @@
+O QUE SÃO EXCECÕES?
+    - Exceções (Exceptions) são erros que ocorrem no código
+    - São capiturados em tempo de execução (runtime)
+    - Podem ser tratados (erros) para que o código não quebre
+    - No JavaScript, as exceções são lançadas pela Class Error
+        * Quando é instanciada e lançada o interpretador entende que ocorreeu um erros
+    - Para a execução exibir o erro podemos usar a estrutura de tratamento de exceções do JavaScript: TRY, CATCH, FINALY
+    - Assim como também podemos lançar nossos próprios erros usando a cláusula: THROW

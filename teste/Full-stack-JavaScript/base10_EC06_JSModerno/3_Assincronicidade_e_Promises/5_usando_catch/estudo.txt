@@ -1,0 +1,5 @@
+CATCH:
+    - Enquanto o THEN recebe o "resolve", o CATCH recebe o "reject"
+    - Dentro dele (no parâmetro) também temos uma função anônima
+    - Dentrodele recebemos o "reject" por parâmetro também
+    - Olhar no código

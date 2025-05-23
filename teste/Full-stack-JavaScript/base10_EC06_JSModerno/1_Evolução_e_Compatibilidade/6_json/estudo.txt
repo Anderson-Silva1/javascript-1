@@ -1,0 +1,16 @@
+JSON:
+    - JSON significa javaScript Object Notation
+    - Um formato de representação de dados no formatpo texto
+    - Ele é derivado da forma de como os objetos JavaScript são organizados
+
+PQ USAR O JSON??
+    - Diferentes sistemas precisam se comunicar, e para isso precisa haver um padâo de comunicação, pois a sintaxe dos sistemas podem ser diferentes
+    - JSON é um formato bem compacto e altamente adotado na área dsa programação
+    - Pode ser um texto salvo num arquivo, geralmente em um formato ".json"
+    - Ou até mesmo numa string
+
+COMO É O FORMATO JSON??
+    - Olhar os exemplos nos arquivos a parte...
+
+COMO PODEMOS MANIPULAR UM JSON??
+    - Em javaScript podemos usar um método chamado JSON.parse() para converter um JSON para OBJETO em JavaScript

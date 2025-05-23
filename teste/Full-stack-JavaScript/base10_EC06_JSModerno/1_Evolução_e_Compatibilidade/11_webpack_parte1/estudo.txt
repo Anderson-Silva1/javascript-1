@@ -1,0 +1,28 @@
+O QUE É WEBPACK??
+    - É uma ferramenta conhecida como "static module bundler"
+    - Lê todo o código e monta um gráfico de dependências
+    - Esse gfráfico é usado para mostar os pacotes de códigos
+    - A idéia é ter todo o código modularidado no JS, atravéz do código e do arquivo de configuração
+
+    - Ele possui espaço para plugins e loaders
+    - Permite incluir outros tipos de arquivos além do ".js" como ".css", ".py", etc... ou Transpilar o nosso código JS com o Babel
+    - Tudo no WEBPACK é configurado num arquivo chamado "webpack.config.js"(nome padrão)
+
+
+INSTALANDO O WEBPACK:
+    - Iniciamos um prijeto node usando o "npm init -y"
+    - Comando: "npm install --save-dev webpack webpack-cli"
+    - Usamos o "--save-dev" pq o webpack é uma ferramente puramentede desenvolvimento, não irá para a produção...
+
+TESTANDO O WEBPACK:
+    - Vamos instalar o webpack, e instalaremos tbm o moment(já vimos como fazer isso)
+    - Crismoa uma pasta src e colocamos um arquivo index.js dentro dele, dentro desse index.js, iremos importar nosso moment e mostraremos a hora daquele momento:
+        * import moment from "moment/src/moment"
+        * let data =- moment().format("HH:mm:ss")
+    - Criamos uma pasta chamada dist, e dentro dela um arquivo index.html que está importando um script JS, main.js
+    - Usamos o comando para rodar nosso webpack: npx webpack
+    - E veremso que ele criou dentroda pasta dist um arquivo chamado main.js...
+    - Em algumas aulas passadas, importamos o moment dentro do HTML para rodar esse módulo, agora, graças ao webpack, importamos todo o módulo moments dentro do nosso arquivo main.js (O que permite execultar o nosso moments sem importer no index.html), juntamente tbm com os espaços exedentes excluídos criando o main.js que pega todas as dependências arquivo index.js e cria uma espécie de arquivo minificada(O que melhora a velocidade na hora da execulção)
+
+    - Em resumo, o webpack é capaz de copiar todas as dependências juntamente com suas funções, estruturas de repetição/decisão, variáveis, e suas estruturas específicas e importar dentro de um só arquivo de forma miniaturizada, juntamente claro com os comandos do arquivo origem também
+    

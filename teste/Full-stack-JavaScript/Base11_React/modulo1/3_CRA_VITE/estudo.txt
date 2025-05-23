@@ -1,0 +1,17 @@
+O QUE É CRA?
+    - é uma ferramenta oficial da equipe do React que permite configurar rapidamente um ambiente de desenvolvimento para aplicações React. Ele já vem com as configurações necessárias para trabalhar com React, Webpack, Babel e outras ferramentas, sem a necessidade de configurar manualmente.
+    - É uma forma de criar um projeto React já pronto, onde significa "CREATE REACT APP"
+    - COMANDO: npx create-react-app nome-do-projeto
+    - CRA usa o babel como transpilador e o webpack como empacotador
+
+VITE
+    - é uma ferramenta de build e desenvolvimento que tem ganhado popularidade por ser extremamente rápida e eficiente, especialmente em comparação ao Create React App (CRA). Ele é usado principalmente para construir aplicações web modernas com frameworks como React, Vue e outros.
+
+    npm create vite@latest nome-do-projeto
+    cd nome-do-projeto
+    npm install
+    npm run dev
+
+    - O Vite usa esbuild (não babel) para transpilação e Rollup para empacotamento de produção.
+    - O esbuild oferece transpilação rápida, enquanto o Rollup é responsável pela otimização e empacotamento para produção.
+    - O Webpack não faz parte do fluxo padrão do Vite, mas pode ser integrado manualmente se necessário.

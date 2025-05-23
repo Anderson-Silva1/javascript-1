@@ -1,0 +1,13 @@
+O QUE É POO??
+    - É um paradigma de programação conhecido como Programação Orientado a Objeto
+    - Esse paradígma tem a idéia de abstrair, para dentro do código, objetos do mundo real, como uma pessoa, carro, casa, etc...
+    - Esse paradigma permite que os objetos, que tamém são chamados de instâncias, interagam entre si, criando uma conexão entre objetos de uma mesma classe ou de classes diferentes.
+    - A base das Classes são objetos,ou instâncias de uma determinada classe
+    - Todo objetoé criado apartir de uma classe
+    - A classe é como um molde que usamos para criar objetos, dentro desse molde conseguimos definir atributos e métodos que um objeto vai ter
+    - A estrutura de dado ARRAY é um tipo de objeto, pois com ele temos métodos, que são nada mais nada menos que funções de uma classe
+
+CRIANDO UMA CLASSE:
+    1. usamos a palavra reservada "class"
+    2. Damos um nome a essa "class" (Sempre a primeira letra maiúscula, e no formatro Camel-Case)
+    3. Abrimos chaves, dentro dessas chaves vamos criar nossos atributos e nossos métodos

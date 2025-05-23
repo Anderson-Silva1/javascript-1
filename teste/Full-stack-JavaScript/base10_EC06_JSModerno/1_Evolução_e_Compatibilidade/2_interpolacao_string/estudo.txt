@@ -1,0 +1,13 @@
+INTERPOLAÇAÕ DE STRING:
+    - Podemos escrever strings (textos) em javascript usando ""(áspas duplas) ou ''(áspas simples)
+    - Usando essas duas formas acima podemos fazer usar a concatenação para misturar strings com variáveis e códigos JS
+        * let variavel = "Olá"
+        * console.log("Teste 123 " + variavel + " teste 123")
+        * Usando dessa forma não é usual e é bastante incompreenssível se levar em conta uma grande base de comandos
+    - Pensando isso o ES incluiu na versão 6 em 2015 uma funcionalidade chamada "template literals" ou "template strings"
+    - que é a idéia de introduzir códigos JS dentro das strings
+    - Usamos ao invés de "" ou '', ``(crazes) isso mesmo, usamnos crazespara usar o template literals
+    - E dentro dele se quisermos adicionar um código JS usaremos o $(cifrão) e abriremos colchetes ({})
+        * let variavel = "Olá"
+        * console.log(`Teste 123 ${variavel} teste 123`)
+        * Dessa forma se torna mais legível e mais enchuto o nosso codigo

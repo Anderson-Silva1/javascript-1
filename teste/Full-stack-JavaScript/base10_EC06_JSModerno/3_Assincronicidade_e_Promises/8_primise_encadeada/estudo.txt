@@ -1,0 +1,4 @@
+ENCADEAMENTE DE PROMISES:
+    - É quando eu quero que uma Promise receba o resultado de outra Promise
+    - Podemos fazer isso de duas formas:
+        

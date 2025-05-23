@@ -1,0 +1,7 @@
+EXECULTANDO VÁRIAS PROMISES:
+    - Existe um método estático dentro da Class Promise chamado: "all"
+    - E dentro desse método podemos passar um array de Promise's
+    - Onde todas precisam ser execultadas com sucesso, para aparecer as duas ou mais Promises
+    - Caso uma venha parar no "reject", o método "all" mostrará o respectivo erro, e não irá retorna a outra ou as outras Promises
+    - E isso possibilita execultarmos duas promoses de forma similtânea
+    - Com isso podemos execultar nossas Promises de forma atônita... Ou seja: Ou as duas passam, ou nãopassa nenhuma.

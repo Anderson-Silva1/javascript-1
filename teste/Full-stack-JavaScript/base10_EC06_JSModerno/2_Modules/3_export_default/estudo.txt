@@ -1,0 +1,15 @@
+EXPORT DEFAULT:
+    - Vai definir qual será o export padrão de um determinado arquivo
+    - Usamos ele depois do nosso código ou no momento da criação do código
+    SINTAXE:
+        * export default variavel = "Minha variavel"
+
+        * let variavel = "Minha variável"
+          export default variavel
+
+    
+IMPORT DEFAULT:
+    - É o comando de importação de um código JS
+    SINTAXE: 
+        * import Pessoa from "./Pessoa"; => caso seja apenas uma função
+        * import "./Pessoa"; => Caso seja todo o arquivo

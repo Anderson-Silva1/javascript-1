@@ -1,0 +1,32 @@
+JSX, O QUE É?
+    - EXEMPLO DE CÓDIGO JSX:
+
+        * const element = <h1 className="title">Hello World!</h1>
+
+        * Veja que é uam mistura de HTML e JavaScript
+    - Não é apenas HTML ou apenas JavaScript
+    - JSX serve para descrever como nossa UI (User Interface) irá ficar
+    - JSX não é interpretado pelo browser, por esse motivo devemos usar um transpilador (em geralo babel) para realizar essa transpilação
+    - Ao contrário do passado, em vêz de colocar JavaScript em HTML, o JSX permite colocar HTML em JavaScript
+
+    - O código que vimos antes, após ser traspilado, se tornará:
+
+        * const element = React.createElement(
+            "h1", 
+            { classname: "title"},
+            "Hello World!"
+        )
+
+    - Com esse código preparamos o nosso elemento para ser exibido no DOM
+
+
+VANTAGENS:
+    - A sintaxe JSX é similar ao HTML
+    - Melhor integração do HTML e JavaScript
+
+
+QUEM USA O JSX?
+    - Preact
+    - Inferno
+    - React-Native
+    - VueJs (Opcional)

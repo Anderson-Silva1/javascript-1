@@ -1,0 +1,30 @@
+.img_gray {
+    width: 400px;
+    transition: all 1s;
+}
+
+.img_gray:hover {
+    transition: all 1s;
+    animation: gray_scale 2s alternate infinite;
+    cursor: pointer;
+}
+
+@keyframes gray_scale {
+    0% {
+        filter: grayscale(10%);
+    } 100% {
+        filter: grayscale(100%);
+    }
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.link:active {
+    color: green;
+}

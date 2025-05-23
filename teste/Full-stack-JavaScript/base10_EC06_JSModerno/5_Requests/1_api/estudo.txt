@@ -1,0 +1,39 @@
+API:
+    - É uma sigla para Application Programming Interface (Interface de programa de aplicação)
+    - É um termo antigo, que surgiu antes da própria web
+    - Um meio pelo qual os sistemas se comunicam
+        * Um consegue usar as funcionalidades de outro
+        * Permite a um sistema enviar e receber dados
+    
+    - Por exemplo:
+        * Quando tiramos dinheiro do caixa eletrônico, ele (caixa eletrônico) consome uma API que o conectacom sua conta
+
+    
+    - Com a internet, novos tipos de API's surgiram
+    - A mais ultilizada hje é a REST API
+    - Ela é feita sobre o protocolo HTTP
+        * Envolve requisições web
+    
+    - Da mesma forma que requisitamos páginas web's pelo navegador, podemos tambémsolicitar recursosatravéz de uma API RESTFull
+        *RESTFull => É uma API que segue o padrão REST
+    
+    REST:
+        - Significa REpresentational State Transfer ou transferência de estado epresentacional
+        - É um modelo
+        - COnsistem em regras e padrões e permitem a criação de API's bem definidas
+        
+    Como funciona o HTTP?
+        - É usado por meio de vermso de acesso:
+            * GET
+            * POST
+            * PATCH/PUT
+            * DELETE
+        
+
+    - Quando digitamos uma URL no navegador, estamos fazendo uma requisição
+    - Ele(navegador) nos retorna uma página web
+    - Ele usa uma requisição HTTP
+
+    - Para API's tabém fazemos uma requisição para uma URL
+        * Mas não recebemos uma página
+        * É retornado dados: JSON, XML, ETC...

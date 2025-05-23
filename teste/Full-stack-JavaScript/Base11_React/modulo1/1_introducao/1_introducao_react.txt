@@ -1,0 +1,16 @@
+REACT, O QUE É?
+    - É uma biblioteca (lib) JavaScript declarativa, eficiente e flexível para a criação de interfaces de usuários (UI)
+    - Surgiu em 2011 no Facebook
+    - Características:
+        * 1 - É uma biblioteca, não um framework
+        * 2 - É baseado em componentes
+        * 3 - É usado para SAPs (Single Page Aplication(s))
+    - React é feito com JavaScript, então podemos reaproveitar nossos coinhecimentos sobre a linguagem
+    - React é eficiente (Virtual DOM)
+    - O React pode ser usado para criação de APPs mobile com o React Native
+    - React é a biblioteca de criação de interfaces mais populares do mundo e é ultilizado em grandes empresas:
+        * Facebook
+        * Instagram
+        * WhatsAPP
+        * Netflix
+        * Dropbox

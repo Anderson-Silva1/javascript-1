@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Externo</title>
+    <style>
+        span {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Importando JavaScript no HTML</h1>
+    <p>Podemos importar JAs de duas formas: JS interno e JS externo</p>
+    <p><strong>JS interno:</strong></p>
+    <p>No JS interno significa que iremos importar nosso arquivo JS dentro da nossa página HTML, tanto dentro do HEAD, quando dentro do BODY quando depois do BODY, ficando com a sintaxe mais ou menos assim:</p>
+    <pre>
+        &lt;html&gt;
+            &lt;head&gt;
+            &lt;script&gt;
+                <span>
+                    // Podemos colocar ele aqui
+                    /* Aqui dentro ficará nosso código JavaScript */
+                </span>
+            &lt;/script&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;h1&gt; Meu projeto &lt;/h1&gt;
+            &lt;script&gt;
+                <span>
+                    // Podemos colocar ele aqui
+                    /* Aqui dentro ficará nosso código JavaScript */
+                </span>
+            &lt;/script&gt;
+            &lt;/body&gt;
+            &lt;script&gt;
+                <span>
+                    // Podemos colocar ele aqui
+                    /* Aqui dentro ficará nosso código JavaScript */
+                </span>
+            &lt;/script&gt;
+        &lt;/html&gt;
+    </pre>
+    <p><strong>JS externo</strong></p>
+    <p>Essa é a forma mais recomendada de usar um arquívo JS... Nessa modalidade usamos a sintaxe: &lt;script src="script.js"&gt; &lt;/script&gt;... e podemos cvolocá-la dentro do HEAD, dentro do BODY ou depois do BODY do nosso arquivo HTML... mas para evitar futuros erros de carregamento, usamos geralmente no final do BODY ou depois do BODY</p>¨
+    <pre>
+        &lt;html&gt;
+            &lt;head&gt;
+            &lt;script scr="script.js"&gt;&lt;/script&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+            &lt;h1&gt; Meu projeto &lt;/h1&gt;
+            &lt;script scr="script.js"&gt;&lt;/script&gt;
+            &lt;/body&gt;
+            &lt;script scr="script.js"&gt;&lt;/script&gt;
+        &lt;/html&gt;
+    </pre>
+</body>
+</html>

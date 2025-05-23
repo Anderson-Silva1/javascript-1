@@ -1,0 +1,2 @@
+SOBREESCRITA DE MÉTODOS:
+    - Sempre que um método é chamado o Javascript vai procurar ele dentro da classe em que ele foi chamado, 

@@ -1,0 +1,57 @@
+VEREMOS SOBRE LOADERS DO WEBPACK:
+    - Vamos integrar o webpack com o babel e vamos usar outra ferramente do webpack que ele tem
+
+INSTALANDO O BABEL:
+    - Vamos instalar os seguintes módulos:
+        * @babel/core => O arquivo que contém a lógica principal de Babel
+
+        * @babel/preset-env => é um dos presets mais utilizados no Babel. Ele permite que você transpile seu código JavaScript moderno (ES6+ e além) para versões mais antigas do JavaScript, de acordo com o ambiente de execução que você deseja suportar.
+
+        * babel-loader => é um loader do Webpack que permite integrar o Babel no processo de compilação de arquivos JavaScript. Ele instrui o Webpack a usar o Babel para transpilar o código JavaScript durante o processo de empacotamento (bundling), permitindo que você escreva código moderno (ES6, ES7, etc.) e o transforme em versões compatíveis com navegadores mais antigos.
+
+        * core-js@3 => é uma biblioteca JavaScript que fornece polyfills para as funcionalidades mais recentes da linguagem JavaScript (ES6+ e além) que podem não ser suportadas por navegadores mais antigos ou ambientes como versões antigas do Node.js.
+
+    Comando: npm install @babel/core @babel/preset-env babel-loader core-js@3
+
+
+INTEGRANDO BABEL AO WEBPACK:
+    - Depois de configurar o nosso webpack, nós criamos uma nova chave na module.exports chamado "module" que receberá um objeto
+    - Esse objeto receberá uma chave chamada "rules" que significas regras, e essa chave "rules" receberá um array
+    - Esse array será um array de objetos... 
+    - O primeiro objeto desse array recebe a chave "test"
+        * (que é o que o webpack vai fazer para buscar os arquivos)
+    - E como valor dessa chave "test" colocaremos uma expressão regular
+        * (é uma sequência de caracteres que define um padrão de busca. Esse padrão pode ser utilizado para realizar diversas operações em textos, como validação de formatos, busca, substituição e extração de informações. Expressões regulares são amplamente utilizadas em linguagens de programação como Python, JavaScript, Java, entre outras.)
+    - Sintaxe da expressão regular: /\.js$/ => Essa expressão vai dizer ao webpack para buscar todos os arquivos que contém a extenção ".js"
+    - Depois criamos outra chave desse primeiro objeto do nosso array de objetos, chamada "use", e essa chave recebe o valor
+    "[babel-loader]", o que significa que nomomento em que o webpack for buscar os arquivsos com a extenção ".js" ele vai ultilizar o "babel-loader"
+
+
+AGORA PRECISAMOS CONFIGURAR NOSSO BABEL:
+    - Pois depois que o webpack bsucar todos os arquivo com a extenção ".js" ele vai chamar o "babel" para a transpilação antes de do webpack empacotar os módulos
+
+
+USANDO O SERVIDOS DO WEBPACK:
+    - Precisamos redar o comando: npm install webpack-dev-server --save-dev
+        * Só que remos isso no ambiente de desenvolvimento, por isso colocamos: "--save-dev"
+
+    - Depois configuramos esses servidor:
+        * Dentro do module.exports do nosso webpack aducionaremos mais uma chave: "watch" recebendo o valor "true"
+            => Ele vai procurar alguma atualizaçãoem nosso projeto e quando encontrar ele vai execultar o webpack novamente
+
+
+    - Adicionamos uma nova chave ao module.exports do nosso webpack chamada "devServer" que receberá como valor um objeto, onde irá conter as configurações do nosso servidor webpack
+
+    - Esse objeto de configuração do servidor webpack recebe uma chave chamada "contentBase" e recebe como valor o "path.join(__dirname, 'dist')"
+        * Usado para criar o caminho absoluto para o diretório dist
+    - Esse mesmo objeto receberá outra chave chamada "watchContentBase" e como valor ela recebe "true"
+        * Esse atributo vai fazer o seguinte vai monitorar o diretório dist para ver quando ele tem atualizaçãoe
+    - Dentro desse mesmo objeto ainda teremos outra chave chamada "liveReload" como valor recebe "true"
+        * Esse atributo vai fazer o reload da página no browser altomáticamente sempre que houver atualizações identificadas pelo "watchContentBase"
+
+
+START DO servidor
+    - Vamos criat um script no arquivo "package.json" para dar um start ao nosso servidor, ficará assim:
+        * "start": "webpack-dev-server"
+        * Rodando o código: 
+            - npm run start

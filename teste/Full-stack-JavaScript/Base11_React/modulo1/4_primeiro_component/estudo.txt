@@ -1,0 +1,14 @@
+COMPONENTE FUNCTION
+    - É o que mais iremos usar
+    - Esses componentes são literalmente funções JavaScript
+    - Essas funções podem receber parâmetros, o que chamamos de "props"
+    - E essa função retorna o JSX
+
+COMPONENTE DE CLASS:
+    - Precisamos declarar uma Class, e dentro dela um método chamado "render"
+    - 
+
+FRAGMENT:
+    - O fragment é uma funcionalidade do React para quando não queremos exportar uma div global de um componentes
+    - Podemos importar o Fragment pelo "import React, { fragment } from 'react'"
+    - Ou simplesmente usar o: <> Nosso componemnte ficará aqui... </>

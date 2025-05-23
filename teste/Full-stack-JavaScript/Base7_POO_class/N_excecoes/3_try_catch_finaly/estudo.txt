@@ -1,0 +1,6 @@
+TRY, CATCH E FINALY
+    - Cada uma dessas instruções recebe um bloco de código
+    - TRY => Será a estrutura do meu código, onde meu código irá ficar para ser tratado... Tudo que poderá da erro ficará dentro dele...
+        * Caso encontre um erro ele passa para o CATCH
+    - CATCH => Essa instrução recebe o erro que o TRY identificar, e podemos pegar esse erro por parâmetro, e apresentá-lo na tela
+    - FINALY => É uma instrução opcional, ele vai sempre ser execultado, independente do resultado do TRY

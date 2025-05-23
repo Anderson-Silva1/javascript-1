@@ -1,0 +1,4 @@
+NESSE EXERCÍCIO:
+    - Criamos um projeot React usando o VITE
+    - Criamos um componente estático Planet, onde vai receber o valor dos planetas...
+    

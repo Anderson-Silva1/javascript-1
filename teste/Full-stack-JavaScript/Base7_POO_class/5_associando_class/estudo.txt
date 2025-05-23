@@ -1,0 +1,5 @@
+ASSOCIAÇÕA ENTRE CLASSES:
+    - Fazer uma associação entre classes permite a comunição entre as instâncias dessas classes
+    - Basicamente uma classe pai recebara a intância de outra classe filha como um atributo de Classe (Atributo da class Pai), que por sua vêz pode receber outra instância de outra classe...
+
+OLHAR O CÓDIGO DO ARQUIVO "script.js"

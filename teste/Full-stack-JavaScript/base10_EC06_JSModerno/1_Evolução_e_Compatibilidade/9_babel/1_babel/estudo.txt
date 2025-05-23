@@ -1,0 +1,24 @@
+TRANSPILAÇÃO COM BABEL:
+    - Traspilar é converter um código que está em uma linguagem para outra
+    - Babel faz isso, converte uma versão do ECMA para outras versões anteriores
+    - Desenvolvido em JS
+    - O Babel é usado para permitir compatibilidade com navegadores que ainda não suportam determinadas versões
+
+COMO USAR?
+    - Instalamos os pacotes:
+
+        * @babel/core => Este é o núcleo (core) do Babel. Ele contém o compilador Babel, que é responsável por converter o código JavaScript moderno (ES6+ e além) em uma versão mais compatível com navegadores antigos ou ambientes que não suportam as últimas features do JavaScript.
+    
+        * @babel/cli => Este pacote permite que você utilize o Babel diretamente pela linha de comando (CLI). Isso é útil se você deseja executar a conversão (transpilar) do seu código JavaScript manualmente ou automatizar o processo em scripts.
+    
+        * @babel/preset-env => Este é um "preset" para o Babel, o que significa que ele configura o Babel para converter o código JavaScript moderno automaticamente para as versões mais antigas, com base no ambiente que você está direcionando (por exemplo, navegadores, Node.js). Ele ajusta quais features precisam ser convertidas conforme o suporte do ambiente de execução.
+    
+    E usamos a FLAG: --save-dev => Esse flag indica que os pacotes instalados serão adicionados às dependências de desenvolvimento do projeto, no arquivo package.json, dentro da seção "devDependencies"
+
+COMANDO:
+    - Podemos, depois de instalar o babel, rodar o comando: npx babel <arquico para transpilação> para ver o resultado
+    - Podemos ainda salvar a saida em outro arquivo: npx babel <arquico para transpilação> -o compiled_script.js
+
+    - Podemos transpilar todo um diretório e colocar a saída em outro diretório: npx babel <pasta a ser transpilada> --out-dir <pasta a receber a transpilação> --presets=@babel/preset-env
+
+    
